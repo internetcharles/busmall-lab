@@ -1,4 +1,4 @@
-export const productData = [
+const productData = [
 {
     id: 'r2d2-case',
     name: 'R2-D2 Suitcase',
@@ -68,7 +68,7 @@ export const productData = [
 {
     id: 'pet-sweep',
     name: 'Pet Sweep',
-    image: '../assets/pet-sweet.jpg',
+    image: '../assets/pet-sweep.jpg',
     description: 'Your dog will not tolerate this.'
 },
 {
@@ -86,7 +86,7 @@ export const productData = [
 {
     id: 'baby-sweep',
     name: 'Baby Sweep',
-    image: '../assets/sweep.jpg',
+    image: '../assets/sweep.png',
     description: 'Prepare your baby for a life of endless labor.',
 },
 {
@@ -104,7 +104,7 @@ export const productData = [
 {
     id: 'usb-tentacle',
     name: 'USB Tentacle',
-    image: '../assets/tentacle.jpg',
+    image: '../assets/usb.gif',
     description: 'Yeah, just look at it.',
 },
 {
@@ -119,4 +119,6 @@ export const productData = [
     image: '../assets/wine-glass.jpg',
     description: 'A surefire way to stain all your clothes',
 }
-]
+];
+
+export default productData;
