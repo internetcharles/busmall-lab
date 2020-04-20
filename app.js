@@ -21,8 +21,9 @@ submitButton.addEventListener('click', () => {
         // push session data to local storage
         let stringySessionData = JSON.stringify(sessionData);
         localStorage.setItem('results', stringySessionData);
-
+        window.location.replace('./results/index.html');
     }
+
 
     // finding out which button is pressed and log it to sessionData
     const selectedInput = document.querySelector('input[type=radio]:checked');
