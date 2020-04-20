@@ -12,10 +12,9 @@ export function generateThreeRandom(products) {
 
     while (threeIds.length < 3) {
         const randomProduct = generateRandom(products);
-        threeIds.push(randomProduct)
         
         // check for duplicates
-
+        if (!(threeIds.includes(randomProduct))) { threeIds.push(randomProduct); }
 
     }
 
