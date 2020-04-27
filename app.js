@@ -27,8 +27,8 @@ submitButton.addEventListener('click', () => {
 
     // finding out which button is pressed and log it to sessionData
     const selectedInput = document.querySelector('input[type=radio]:checked');
-    if (selectedInput === null) { alert('Make your choice!')}
-    const selectedProductID = selectedInput.value
+    if (selectedInput === null) { alert('Make your choice!')};
+    const selectedProductID = selectedInput.value;
     const selectedProductData = findById(sessionData, selectedProductID);
     selectedProductData.selections+++
 
@@ -46,6 +46,5 @@ submitButton.addEventListener('click', () => {
 
     recordViews(randomProducts, sessionData);
 
-    console.log(sessionData);
 
-} )
+});
