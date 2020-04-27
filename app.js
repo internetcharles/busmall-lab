@@ -30,7 +30,7 @@ submitButton.addEventListener('click', () => {
     if (selectedInput === null) { alert('Make your choice!');}
     const selectedProductID = selectedInput.value;
     const selectedProductData = findById(sessionData, selectedProductID);
-    selectedProductData.selections++
+    selectedProductData.selections++;
 
     choiceCounter++;
 
