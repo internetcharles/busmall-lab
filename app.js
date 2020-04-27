@@ -27,10 +27,10 @@ submitButton.addEventListener('click', () => {
 
     // finding out which button is pressed and log it to sessionData
     const selectedInput = document.querySelector('input[type=radio]:checked');
-    if (selectedInput === null) { alert('Make your choice!')};
+    if (selectedInput === null) { alert('Make your choice!');}
     const selectedProductID = selectedInput.value;
     const selectedProductData = findById(sessionData, selectedProductID);
-    selectedProductData.selections+++
+    selectedProductData.selections++
 
     choiceCounter++;
 
